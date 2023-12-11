@@ -17,7 +17,7 @@ namespace SingeltonPattern
 
             public static BankAccountManager GetSingletonInstance()
             {
-                if (instance == null
+            if (instance == null)
                 {
                     instance = new BankAccountManager();
                 }
